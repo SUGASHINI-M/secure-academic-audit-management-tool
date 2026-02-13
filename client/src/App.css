@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI, sans-serif;
+}
+
+/* Background */
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fff7cc, #f5e6d3);
+}
+
+/* Auth Pages */
+
+.box {
+  width: 360px;
+  margin: 80px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  border-top: 6px solid #f472b6;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs */
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+/* Buttons */
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #f472b6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #ec4899;
+}
+
+/* Links */
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  color: #f472b6;
+  cursor: pointer;
+}
+
+/* Dashboard Layout */
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Headings */
+
+h2 {
+  text-align: center;
+  color: #3f3f46;
+  margin-bottom: 25px;
+}
+
+/* Cards */
+
+.card {
+  background: #fff7cc;
+  padding: 18px;
+  margin-top: 15px;
+  border-radius: 15px;
+  border-left: 6px solid #f472b6;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Card text */
+
+h4 {
+  margin-bottom: 5px;
+  color: #3f3f46;
+}
+
+textarea {
+  height: 80px;
+}
+
+/* Mobile Responsive */
+
+@media(max-width:600px) {
+  .box {
+    width: 90%;
+  }
+}
