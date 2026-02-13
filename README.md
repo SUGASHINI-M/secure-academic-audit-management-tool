@@ -16,11 +16,11 @@ A full-stack web application for managing academic audits with role-based access
 
 ```
 secure-audit-tool/
-├── backend/          # Express API (port 4000)
+├── Server/          # Express API (port 4000)
 │   ├── models/       # User, Audit
 │   ├── routes/       # Auth, Audit
 │   └── server.js
-├── frontend/         # React app (port 3000)
+├── Client/         # React app (port 3000)
 │   └── src/
 │       └── pages/    # Login, Register, Admin, Staff, Student
 ├── README.md
@@ -125,10 +125,10 @@ git clone <repository-url>
 cd secure-audit-tool
 ```
 
-### 2. Backend
+### 2. Server
 
 ```bash
-cd backend
+cd server
 npm install
 ```
 
@@ -140,10 +140,10 @@ npm run dev
 
 API: **http://localhost:4000**
 
-### 3. Frontend
+### 3. Client
 
 ```bash
-cd frontend
+cd client
 npm install
 npm start
 ```
